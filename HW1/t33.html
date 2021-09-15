@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="t33.css">
+	<title>Задание 33</title>
+</head>
+<body>
+	<!-- не адаптив 1920*1080 :) -->
+	<div class="container">
+		<h1>Опрос для сбора данных</h1>
+		<div class="form">
+			<h2>Оставьте свои данные для дальнейшего их анализа</h2>
+			<form>
+				<div class="row">
+					<div class="col-2 left">
+						<label for="name">Имя:</label>
+						<label for="email">Email:</label>
+						<label for="sex">Пол:</label>
+						<br>
+						<label for="type">К какой категории вы относитесь?</label>
+						<br><br><br>
+						<br><br><br>
+						<label for="languages">Какими ЯП вы владеете?</label>
+						<br><br><br>
+						<br><br><br>
+						<label for="extra">Пожелания: </label>	
+					</div>
+					<div class="col-2">
+						<input id="name" type="text" placeholder="Введите свое имя...">
+						<input name="email" type="text" placeholder="Введите свой электронный адрес...">
+						<select name="sex" id="sex">
+							<option value="None"></option>
+							<option value="M">Женский</option>
+							<option value="F">Мужской</option>
+						</select>
+						<label><input type="radio" name="lang">Студент</label>
+					    <label><input type="radio" name="lang">Преподаватель</label>
+					    <label><input type="radio" name="lang">Выпускник</label>
+					    <label><input type="checkbox">Java</label>
+						<label><input type="checkbox">C++</label>
+						<label><input type="checkbox">Python</label>
+						<textarea id="extra" placeholder="Введите ваши пожелания..." cols=20 rows=8></textarea>
+					</div>
+				</div>
+				<button type="submit" class="btn">Отправить</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
