@@ -1,3 +1,5 @@
+console.log("Task13\n\n");
+
 function myEvery(array, func){
     i = 0;
     while(i < array.length){

@@ -1,3 +1,5 @@
+console.log("Task9\n\n");
+
 function deepEqual(o1, o2){
     if (Object.keys(o1).length != Object.keys(o2).length){
         return false;
