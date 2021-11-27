@@ -23,7 +23,7 @@ function exportStr(){
     s = '';
         for (let key in this){
             if (typeof this[key] != 'function'){
-                s += this[key] + '\\';
+                s += key + '=' + this[key] + '\\';
             }
         }
         s+='n';
